@@ -1,8 +1,9 @@
 
-import React, { useEffect } from 'react';
+import React from 'react';
 import { useEmails } from '../contexts/EmailContext';
 import EmailList from './EmailList';
 import EmailDetail from './EmailDetail';
+import { Email } from '../utils/emailData';
 
 const EmailApp: React.FC = () => {
   const {
